@@ -1,0 +1,77 @@
+body {
+  background-image : url("images/numbers.jpg");
+}
+
+#col1 {
+  height : 500px;
+  margin : 4%;
+  opacity : 0.85;
+}
+
+#col2 {
+  height : 500px;
+  margin : 4%;
+  opacity : 0.85;
+}
+
+#col3 {
+  height : 500px;
+  margin : 4%;
+  opacity : 0.85;
+}
+
+#input1 {
+  width : 100%;
+  height : 480px;
+  color : black;
+  background : transparent;
+  font-size : 20em;
+  text-align : center;
+  border : none;
+  margin-top : 8px;
+}
+
+#input2 {
+  width : 100%;
+  height : 480px;
+  color : black;
+  background : transparent;
+  font-size : 20em;
+  text-align : center;
+  border : none;
+  margin-top : 8px;
+}
+
+#input3 {
+  width : 100%;
+  height : 480px;
+  color : black;
+  background : transparent;
+  font-size : 20em;
+  text-align : center;
+  border : none;
+  margin-top : 10px;
+}
+
+#try {
+  width : 100%;
+  text-align : center;
+}
+
+#but {
+  width : 20%;
+  
+}
+
+#header {
+  color: white;
+  text-align : center;
+}
+
+#explain {
+  color : white;
+  text-align : justify;
+  text-align : center;
+  border-color : black;
+  border-style : solid;
+}

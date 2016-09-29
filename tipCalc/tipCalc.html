@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My Tip Helper</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Official Bootstrap -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+    crossorigin="anonymous">
+  <!-- Our project CSS -->
+  <link rel="stylesheet" href="tipCalc.css">
+  <script data-cfasync="false" type="text/javascript" src="//filamentapp.s3.amazonaws.com/c68d48c45aa201efb4f568f73f895142.js" async="async"></script>
+
+</head>
+
+<body>
+  <container>
+    <row>
+      <div class="col-md-4" id="enter">
+        <h2 id="bill">Bill Total</h2>
+        <h2 id="h1">$<input type="tel" maxlength="6" placeholder="Amount" id="input1" onkeypress = "return isNumberKey(event)"></h2>
+
+        <button id="but1">Next</button>
+      </div>
+      <div class="col-md-4" id="total">
+        <h2 id="tip">Tip Total</h2>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+          <ul class="nav navbar-nav">
+
+            <li class="dropdown">
+              <a href="#" id="tipAmount" class="dropdown-toggle waves-effect waves-light" data-toggle="dropdown" role="button" aria-expanded="false">Tip<span class="caret"></span></a>
+              <ul id="dropdown" class="dropdown-menu" role="menu">
+
+                <li><button role="button" id="small"><a  style = "color : black" target = "_blank">15 Percent - Bad</a></button></li>
+                <li><button role="button" id="medium"><a style = "color : black" target = "_blank">20 Percent - Good</a></button></li>
+                <li><button role="button" id="large"><a style = "color : black"  target = "_blank">25 Percent - Great</a></button></li>
+                
+
+              </ul>
+            </li>
+
+          </ul>
+            
+        </div>
+        <h2 id = "people">Amount of People</h2>
+        <input type="tel" maxlength="1" max = "9" min = "0" placeholder="" id="input2" onkeypress = "return isNumberKey(event)">
+        <button id="but2">Calculate Bill!</button>
+      </div>
+      <div class="col-md-4" id="split">
+        <h2 class = "tip" id = "tip">Tip</h2>
+        <h2 id = "bill+tip3">$<input id = "tipnum" type = "number" readonly></h2>
+        <h2 class = "blah" id = "bill+tip">Bill+Tip</h2>
+        <h2 id = "bill+tip2">
+          $<input id = "test" type = "number" readonly>
+        </h2>
+        <h2 id = "amountPer">Amount Per-Person</h2>
+        <h2>$<input id = "test2" type = "number" readonly></h2>
+        <button id="but3">Reset</button>
+      </div>
+    </row>
+  </container>
+  <hr id = "line">
+  
+
+  <!-- Official JQuery -->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  <!-- Official Bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <!-- Our project JS -->
+  <script src="tipCalc.js"></script>
+
+</body>
+
+</html>

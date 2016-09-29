@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
+
+button:focus {
+  outline : 0;
+}
+
+button:active {
+  transform: translateY(5px);
+  box-shadow : 10px 5px 5px black;
+}
+
+button {
+  border-radius : 25px;
+  box-shadow : 20px 10px 20px black;
+  border-style : solid;
+  border-color : black;
+  border-width : 3px;
+}
+
+a {
+  color : #151412;
+}
+a:hover {
+  text-decoration : none;
+  color : black;
+}
+
+a:visited {
+  color : black;
+  text-decoration : none;
+}
+
+a:active {
+  color : black;
+  text-decoration : none;
+}
+
+body {
+  background-color : #F8F7F5;
+  text-align : center;
+  font-family : Roboto Mono;
+
+}
+
+#main {
+  width : 100%;
+  text-align : center;
+}
+
+#main2 {
+  width : 100%;
+  text-align : center;
+}
+
+#tC {
+  float : left;
+  width : 30%;
+  height : 200px;
+  font-size : 50px;
+  background-color : #00d0ff;
+}
+
+#gG {
+
+  width : 30%;
+  height : 200px;
+  font-size : 50px;
+  background-color : #cfea32;
+}
+
+#tT {
+  float : right;
+  width : 30%;
+  height : 200px;
+  font-size : 50px;
+  background-color : #ff2a54;
+}
+
+#wA {
+  width : 30%;
+  height : 200px;
+  font-size : 50px;
+  margin-top : 10px;
+  margin-right : 10px;
+  background-image : url("images/weather.png");
+  background-size : 150%;
+  background-position-x : -75px;
+}
+
+#bP {
+  width : 30%;
+  height : 200px;
+  font-size : 50px;
+  margin-top : 10px;
+  margin-left : 10px;
+  background-image : url("images/beatles.jpg");
+  background-size : cover;
+}
+
+#banner {
+  width : 40%;
+}
+
+#share {
+  position : absolute;
+  bottom : 0;
+}

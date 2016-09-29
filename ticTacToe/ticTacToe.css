@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Reenie+Beanie);
+
+body {
+  text-align : center;
+  margin-top : 60px;
+  background-image : url("images/notebook.jpg");
+  background-size : cover;
+  background-repeat : no-repeat;
+  background-attachment : fixed;
+  font-family : Reenie Beanie;
+}
+
+#gameCont {
+  width : 100%;
+}
+
+#game {
+  
+  height : 400px;
+  width : 400px;
+  margin-left : auto;
+  margin-right : auto;
+  text-align : center;
+  background-image : url("images/board.png");
+  background-size : cover;
+}
+
+button {
+  
+  border : none !important;
+  height : 200px;
+  width : 200px;
+  font-size : 45px;
+  background-color : transparent;
+}
+
+#left {
+  float : left;
+  margin-left : 50px;
+}
+
+#right {
+  float : right;
+  margin-right : 50px;
+}
+
+#player1wins {
+  font-size : 30px;
+}
+
+#player2wins {
+  font-size : 30px;
+}
+
+#reset {
+  height : 30px;
+  margin-top : 20px;
+  font-size : 16px;
+  text-align : center;
+  font-weight : bold;
+}
+
+img {
+  height : 200px;
+  width : 200px;
+}
+
+#title {
+  font-size : 50px;
+}
+

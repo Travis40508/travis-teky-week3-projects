@@ -1,0 +1,163 @@
+
+
+body {
+  background-image : url("images/restaurant.jpg");
+  background-size : cover;
+  width : 100%;
+  background-repeat: no-repeat;
+  background-attachment : fixed;
+  
+}
+
+#enter {
+  
+  height : 700px;
+  float : left;
+  border-style : solid;
+  border-color : 20px;
+  border-color : black;
+  color : black;
+  font-weight : bold;
+  
+}
+
+#total {
+  
+  height : 700px;
+  text-align : center;
+  display : none;
+  border-style : solid;
+  border-color : 20px;
+  border-color : black;
+  color : black;
+  font-weight : bold;
+}
+
+#split {
+  
+  height : 700px;
+  display : none;
+  text-align : center;
+  color : black;
+  border-style : solid;
+  border-color : 20px;
+  border-color : black;
+  color : black;
+  font-weight : bold;
+}
+
+#input1 {
+  width : 80%;
+  height : 100px;
+  font-size : 80px;;
+  
+  text-align : center;
+}
+
+#h1 {
+  
+  font-size : 80px;
+  margin-top : 13px;
+}
+
+#bill {
+  text-align : center;
+
+}
+
+#but1 {
+  height : 70px;
+  width : 90%;
+  font-size : 50px;
+  margin-top : 102%;
+  margin-left : 5%;
+
+  
+}
+
+#tip {
+  color : black;
+  text-align : center;
+}
+
+#bs-example-navbar-collapse-2 {
+  width : 100%;
+  margin-left : 34%;
+  margin-top : 10%;
+  color : black;
+  height : 100px;
+}
+
+#dropdown {
+  text-align : center;
+  width : 10%;
+}
+
+#tipAmount {
+  width : 100%;
+  color : black;
+  font-size : 3em;
+
+}
+
+
+
+#people {
+  text-align : center;
+  color : black;
+  margin-top : 30%;
+}
+
+#but2 {
+  height : 70px;
+  width : 90%;
+  font-size : 50px;
+  margin-top : 49%; 
+}
+
+#amountPer {
+  margin-top : 53%;
+}
+
+#but3 {
+  height : 70px;
+  width : 90%;
+  font-size : 50px;
+  margin-top : 4.5%;
+}
+
+#input2 {
+  height : 80px;
+  width : 70%;
+  font-size : 70px;
+  text-align : center;
+}
+
+#test {
+  text-align : center;
+  
+}
+
+#test2 {
+  text-align : center;
+  width : 70%;
+  height : 50px;
+  font-size : 30px;
+}
+
+#line {
+  float : left;
+  width : 100%;
+  color : black;
+}
+
+#tipnum {
+  text-align : center;
+  height : 50px;
+  font-size : 30px;
+  width : 31%;
+}
+
+#bill+tip3 {
+  float : left;
+}
