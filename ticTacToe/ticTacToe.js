@@ -14,7 +14,7 @@ var player2wins = 0;
 $("#but1").on("click", function(){
   turn = turn + 1;
   if (turn % 2 == 0) {
-    $("#but1").html("<img src = images/o.png>");
+    $("#but1").html("<img src = images/O.png>");
     player2.push('a');
     $("#but1").prop("disabled",true);
     if (player2.includes('a') && player2.includes('b') && player2.includes('c')) {
@@ -42,7 +42,7 @@ $("#but1").on("click", function(){
       alert("The Cat Wins!");
     }
   } else {
-    $("#but1").html("<img src = images/x.png>");
+    $("#but1").html("<img src = images/X.png>");
     player1.push('a');
     $("#but1").prop("disabled",true);
     if (player1.includes('a') && player1.includes('b') && player1.includes('c')) {
@@ -76,7 +76,7 @@ $("#but1").on("click", function(){
 $("#but2").on("click", function(){
   turn = turn + 1;
   if (turn % 2 == 0) {
-    $("#but2").html("<img src = images/o.png>");
+    $("#but2").html("<img src = images/O.png>");
     player2.push('b');
     $("#but2").prop("disabled",true);
     if (player2.includes('a') && player2.includes('b') && player2.includes('c')) {
@@ -97,7 +97,7 @@ $("#but2").on("click", function(){
       alert("The Cat Wins!");
     }
   } else {
-    $("#but2").html("<img src = images/x.png>");
+    $("#but2").html("<img src = images/X.png>");
     player1.push('b');
     $("#but2").prop("disabled",true);
     if (player1.includes('a') && player1.includes('b') && player1.includes('c')) {
@@ -124,7 +124,7 @@ $("#but2").on("click", function(){
 $("#but3").on("click", function(){
   turn = turn + 1;
   if (turn % 2 == 0) {
-    $("#but3").html("<img src = images/o.png>");
+    $("#but3").html("<img src = images/O.png>");
     player2.push('c');
     $("#but3").prop("disabled",true);
     if (player2.includes('a') && player2.includes('b') && player2.includes('c')) {
@@ -152,7 +152,7 @@ $("#but3").on("click", function(){
       alert("The Cat Wins!");
     }
   } else {
-    $("#but3").html("<img src = images/x.png>");
+    $("#but3").html("<img src = images/X.png>");
     player1.push('c');
     $("#but3").prop("disabled",true);
     if (player1.includes('a') && player1.includes('b') && player1.includes('c')) {
@@ -187,7 +187,7 @@ $("#but3").on("click", function(){
 $("#but4").on("click", function(){
   turn = turn + 1;
   if (turn % 2 == 0) {
-    $("#but4").html("<img src = images/o.png>");
+    $("#but4").html("<img src = images/O.png>");
     player2.push('d');
     $("#but4").prop("disabled",true);
     if (player2.includes('d') && player2.includes('e') && player2.includes('f')) {
@@ -208,7 +208,7 @@ $("#but4").on("click", function(){
       alert("The Cat Wins!");
     }
   } else {
-    $("#but4").html("<img src = images/x.png>");
+    $("#but4").html("<img src = images/X.png>");
     player1.push('d');
     $("#but4").prop("disabled",true);
     if (player1.includes('d') && player1.includes('e') && player1.includes('f')) {
@@ -235,7 +235,7 @@ $("#but4").on("click", function(){
 $("#but5").on("click", function(){
   turn = turn + 1;
   if (turn % 2 == 0) {
-    $("#but5").html("<img src = images/o.png>");
+    $("#but5").html("<img src = images/O.png>");
     player2.push('e');
     $("#but5").prop("disabled",true);
     if (player2.includes('d') && player2.includes('e') && player2.includes('f')) {
@@ -270,7 +270,7 @@ $("#but5").on("click", function(){
       alert("The Cat Wins!");
     }
   } else {
-    $("#but5").html("<img src = images/x.png>");
+    $("#but5").html("<img src = images/X.png>");
     player1.push('e');
     $("#but5").prop("disabled",true);
     if (player1.includes('d') && player1.includes('e') && player1.includes('f')) {
@@ -311,7 +311,7 @@ $("#but5").on("click", function(){
 $("#but6").on("click", function(){
   turn = turn + 1;
   if (turn % 2 == 0) {
-    $("#but6").html("<img src = images/o.png>");
+    $("#but6").html("<img src = images/O.png>");
     player2.push('f');
     $("#but6").prop("disabled",true);
     if (player2.includes('c') && player2.includes('f') && player2.includes('i')) {
@@ -332,7 +332,7 @@ $("#but6").on("click", function(){
       alert("The Cat Wins!");
     }
   } else {
-    $("#but6").html("<img src = images/x.png>");
+    $("#but6").html("<img src = images/X.png>");
     player1.push('f');
     $("#but6").prop("disabled",true);
     if (player1.includes('c') && player1.includes('f') && player1.includes('i')) {
@@ -359,7 +359,7 @@ $("#but6").on("click", function(){
 $("#but7").on("click", function(){
   turn = turn + 1;
   if (turn % 2 == 0) {
-    $("#but7").html("<img src = images/o.png>");
+    $("#but7").html("<img src = images/O.png>");
     player2.push('g');
     $("#but7").prop("disabled",true);
     if (player2.includes('a') && player2.includes('d') && player2.includes('g')) {
@@ -387,7 +387,7 @@ $("#but7").on("click", function(){
       alert("The Cat Wins!");
     }
   } else {
-    $("#but7").html("<img src = images/x.png>");
+    $("#but7").html("<img src = images/X.png>");
     player1.push('g');
     $("#but7").prop("disabled",true);
     if (player1.includes('a') && player1.includes('d') && player1.includes('g')) {
@@ -421,7 +421,7 @@ $("#but7").on("click", function(){
 $("#but8").on("click", function(){
   turn = turn + 1;
   if (turn % 2 == 0) {
-    $("#but8").html("<img src = images/o.png>");
+    $("#but8").html("<img src = images/O.png>");
     player2.push('h');
     $("#but8").prop("disabled",true);
     if (player2.includes('b') && player2.includes('e') && player2.includes('h')) {
@@ -442,7 +442,7 @@ $("#but8").on("click", function(){
       alert("The Cat Wins!");
     }
   } else {
-    $("#but8").html("<img src = images/x.png>");
+    $("#but8").html("<img src = images/X.png>");
     player1.push('h');
     $("#but8").prop("disabled",true);
     if (player1.includes('b') && player1.includes('e') && player1.includes('h')) {
@@ -469,7 +469,7 @@ $("#but8").on("click", function(){
 $("#but9").on("click", function(){
   turn = turn + 1;
   if (turn % 2 == 0) {
-    $("#but9").html("<img src = images/o.png>");
+    $("#but9").html("<img src = images/O.png>");
     player2.push('i');
     $("#but9").prop("disabled",true);
     if (player2.includes('c') && player2.includes('f') && player2.includes('i')) {
@@ -497,7 +497,7 @@ $("#but9").on("click", function(){
       alert("The Cat Wins!");
     }
   } else {
-    $("#but9").html("<img src = images/x.png>");
+    $("#but9").html("<img src = images/X.png>");
     player1.push('i');
     $("#but9").prop("disabled",true);
     if (player1.includes('c') && player1.includes('f') && player1.includes('i')) {
